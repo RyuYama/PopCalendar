@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49CE37F32049356400434245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE37F22049356400434245 /* AppDelegate.swift */; };
+		49CE37FA2049356400434245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CE37F92049356400434245 /* Assets.xcassets */; };
+		49CE38082049356400434245 /* PopCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE38072049356400434245 /* PopCalendarTests.swift */; };
+		49CE38132049356400434245 /* PopCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE38122049356400434245 /* PopCalendarUITests.swift */; };
+		49CE3823204937DB00434245 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE3821204937DB00434245 /* MainView.swift */; };
+		49CE3824204937DB00434245 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CE3822204937DB00434245 /* MainView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CE38042049356400434245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CE37E72049356400434245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CE37EE2049356400434245;
+			remoteInfo = PopCalendar;
+		};
+		49CE380F2049356400434245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CE37E72049356400434245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CE37EE2049356400434245;
+			remoteInfo = PopCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49CE37EF2049356400434245 /* PopCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE37F22049356400434245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49CE37F92049356400434245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49CE37FE2049356400434245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CE38032049356400434245 /* PopCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE38072049356400434245 /* PopCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCalendarTests.swift; sourceTree = "<group>"; };
+		49CE38092049356400434245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CE380E2049356400434245 /* PopCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE38122049356400434245 /* PopCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCalendarUITests.swift; sourceTree = "<group>"; };
+		49CE38142049356400434245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CE3821204937DB00434245 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		49CE3822204937DB00434245 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CE37EC2049356400434245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE38002049356400434245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE380B2049356400434245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49CE37E62049356400434245 = {
+			isa = PBXGroup;
+			children = (
+				49CE37F12049356400434245 /* PopCalendar */,
+				49CE38062049356400434245 /* PopCalendarTests */,
+				49CE38112049356400434245 /* PopCalendarUITests */,
+				49CE37F02049356400434245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49CE37F02049356400434245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CE37EF2049356400434245 /* PopCalendar.app */,
+				49CE38032049356400434245 /* PopCalendarTests.xctest */,
+				49CE380E2049356400434245 /* PopCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CE37F12049356400434245 /* PopCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				49CE37F22049356400434245 /* AppDelegate.swift */,
+				49CE37F92049356400434245 /* Assets.xcassets */,
+				49CE37FE2049356400434245 /* Info.plist */,
+				49CE3820204937A900434245 /* MainView */,
+			);
+			path = PopCalendar;
+			sourceTree = "<group>";
+		};
+		49CE38062049356400434245 /* PopCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				49CE38072049356400434245 /* PopCalendarTests.swift */,
+				49CE38092049356400434245 /* Info.plist */,
+			);
+			path = PopCalendarTests;
+			sourceTree = "<group>";
+		};
+		49CE38112049356400434245 /* PopCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49CE38122049356400434245 /* PopCalendarUITests.swift */,
+				49CE38142049356400434245 /* Info.plist */,
+			);
+			path = PopCalendarUITests;
+			sourceTree = "<group>";
+		};
+		49CE3820204937A900434245 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				49CE3821204937DB00434245 /* MainView.swift */,
+				49CE3822204937DB00434245 /* MainView.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CE37EE2049356400434245 /* PopCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE38172049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendar" */;
+			buildPhases = (
+				49CE37EB2049356400434245 /* Sources */,
+				49CE37EC2049356400434245 /* Frameworks */,
+				49CE37ED2049356400434245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopCalendar;
+			productName = PopCalendar;
+			productReference = 49CE37EF2049356400434245 /* PopCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49CE38022049356400434245 /* PopCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE381A2049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendarTests" */;
+			buildPhases = (
+				49CE37FF2049356400434245 /* Sources */,
+				49CE38002049356400434245 /* Frameworks */,
+				49CE38012049356400434245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CE38052049356400434245 /* PBXTargetDependency */,
+			);
+			name = PopCalendarTests;
+			productName = PopCalendarTests;
+			productReference = 49CE38032049356400434245 /* PopCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49CE380D2049356400434245 /* PopCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE381D2049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendarUITests" */;
+			buildPhases = (
+				49CE380A2049356400434245 /* Sources */,
+				49CE380B2049356400434245 /* Frameworks */,
+				49CE380C2049356400434245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CE38102049356400434245 /* PBXTargetDependency */,
+			);
+			name = PopCalendarUITests;
+			productName = PopCalendarUITests;
+			productReference = 49CE380E2049356400434245 /* PopCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CE37E72049356400434245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RyuYama;
+				TargetAttributes = {
+					49CE37EE2049356400434245 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					49CE38022049356400434245 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CE37EE2049356400434245;
+					};
+					49CE380D2049356400434245 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CE37EE2049356400434245;
+					};
+				};
+			};
+			buildConfigurationList = 49CE37EA2049356400434245 /* Build configuration list for PBXProject "PopCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CE37E62049356400434245;
+			productRefGroup = 49CE37F02049356400434245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CE37EE2049356400434245 /* PopCalendar */,
+				49CE38022049356400434245 /* PopCalendarTests */,
+				49CE380D2049356400434245 /* PopCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CE37ED2049356400434245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE37FA2049356400434245 /* Assets.xcassets in Resources */,
+				49CE3824204937DB00434245 /* MainView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE38012049356400434245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE380C2049356400434245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CE37EB2049356400434245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE3823204937DB00434245 /* MainView.swift in Sources */,
+				49CE37F32049356400434245 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE37FF2049356400434245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE38082049356400434245 /* PopCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE380A2049356400434245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE38132049356400434245 /* PopCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CE38052049356400434245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CE37EE2049356400434245 /* PopCalendar */;
+			targetProxy = 49CE38042049356400434245 /* PBXContainerItemProxy */;
+		};
+		49CE38102049356400434245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CE37EE2049356400434245 /* PopCalendar */;
+			targetProxy = 49CE380F2049356400434245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49CE38152049356400434245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49CE38162049356400434245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CE38182049356400434245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PopCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		49CE38192049356400434245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PopCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		49CE381B2049356400434245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5M9V7Z9MS;
+				INFOPLIST_FILE = PopCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopCalendar.app/PopCalendar";
+			};
+			name = Debug;
+		};
+		49CE381C2049356400434245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5M9V7Z9MS;
+				INFOPLIST_FILE = PopCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopCalendar.app/PopCalendar";
+			};
+			name = Release;
+		};
+		49CE381E2049356400434245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5M9V7Z9MS;
+				INFOPLIST_FILE = PopCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopCalendar;
+			};
+			name = Debug;
+		};
+		49CE381F2049356400434245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5M9V7Z9MS;
+				INFOPLIST_FILE = PopCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.pop.PopCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CE37EA2049356400434245 /* Build configuration list for PBXProject "PopCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE38152049356400434245 /* Debug */,
+				49CE38162049356400434245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE38172049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE38182049356400434245 /* Debug */,
+				49CE38192049356400434245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE381A2049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE381B2049356400434245 /* Debug */,
+				49CE381C2049356400434245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE381D2049356400434245 /* Build configuration list for PBXNativeTarget "PopCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE381E2049356400434245 /* Debug */,
+				49CE381F2049356400434245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CE37E72049356400434245 /* Project object */;
+}
